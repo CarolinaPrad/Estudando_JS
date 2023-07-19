@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Alunos</title>
+</head>
+
+<body>
+    <h1>Relação de Alunos</h1>
+  <div id="tabela-alunos"></div>
+
+  <script src="atividade.js">
+    // Aqui você pode colocar o código JavaScript mencionado anteriormente
+    function gerarTabelaAlunos(alunos) {
+      // ... código da função ...
+    }
+
+    var alunos = [
+      { nome: "João", idade: 20, nota: 8.5 },
+      { nome: "Maria", idade: 19, nota: 9.0 },
+      { nome: "Pedro", idade: 21, nota: 7.5 }
+    ];
+
+    var tabelaAlunos = gerarTabelaAlunos(alunos);
+
+    var elementoTabela = document.getElementById("tabela-alunos");
+    elementoTabela.appendChild(tabelaAlunos);
+  </script>
+</body>
+
+</html>
